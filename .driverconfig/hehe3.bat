@@ -16,5 +16,5 @@ powercfg /SETACTIVE SCHEME_CURRENT
 
 
 for /l %%i in (1, 1, 2) do (
- "nircmd" exec hide "ff/bin/ffplay.exe" -autoexit -nodisp -loglevel quiet "non3.mp3"
+ "nircmd" exec hide "ffplay.exe" -autoexit -nodisp -loglevel quiet "non3.mp3"
 )
